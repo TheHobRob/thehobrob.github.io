@@ -20,6 +20,11 @@ body {
     margin-top: calc(var(--header-height) + 10px);
 }
 
+footer {
+    color: #2e1c96;
+    font-style: italic;
+}
+
 h1,
 h2 {
     color: #d2043f;
