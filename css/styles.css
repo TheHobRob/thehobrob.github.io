@@ -18,6 +18,9 @@ body {
     font-family: sans-serif;
     color: #d7d7d7;
     margin-top: calc(var(--header-height) + 10px);
+    
+    display: grid;
+    place-items: center;
 }
 
 footer {
