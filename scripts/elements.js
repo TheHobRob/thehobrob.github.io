@@ -9,3 +9,4 @@ fetch('includes/footer.html')
     .then(data => {
         document.getElementById('footer').innerHTML = data;
     });
+    
