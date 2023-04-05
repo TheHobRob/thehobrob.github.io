@@ -9,3 +9,8 @@ fetch('includes/footer.html')
     .then(data => {
         document.getElementById('footer').innerHTML = data;
     });
+
+let parent = document.getElementById("header_info");
+let children = parent.children;
+/*let numberOfChildren = children.length;
+console.log(numberOfChildren);*/
